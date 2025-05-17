@@ -1,0 +1,101 @@
+[
+    {
+        "Name": "4 Seasons Window LLC",
+        "Industry": "Construction",
+        "Physical Address": "1704 S 800 E #7, Logan, UT 84321",
+        "Website": "N/A",
+        "Phone": "435-278-0975",
+        "Representative": "George Larson Centeno / Ceo",
+        "MemberSince": "05/01/2018",
+        "Membership": "Bronze",
+        "logo": "https://"
+    },
+    {
+        "Name": "Aamco Transmission",
+        "Industry": "Repair Services",
+        "Physical Address": "75 East 2000 North, North Logan, UT 84341",
+        "Website": "N/A",
+        "Phone": "435-752-1940",
+        "Representative": "Glenn Johnson  / CFO",
+        "MemberSince": "12/01/2024",
+        "Membership": "Silver",
+        "logo": "https"
+    },
+    {
+        "Name": "Accountek Business Solutions",
+        "Industry": "Consulting Accounting",
+        "Physical Address": "4815 Impressario Court, Las Vegas, NV 89149",
+        "Website": "N/A",
+        "Phone": "702-396-7064",
+        "Representative": "Jordan Maise /CEO",
+        "MemberSince": "10/01/2014",
+        "Membership": "Gold",
+        "logo": "https://"
+    },
+    {
+        "Name": "Adams Wealth Advisors",
+        "Industry": "Finance, Consulting",
+        "Physical Address": "1047 S 100 W, Suiote 220, Logan, UT 84321",
+        "Website": "N/A",
+        "Phone": "435-757-6157",
+        "Representative": "Henry James / President & CEO",
+        "MemberSince": "06/01/2014",
+        "Membership": "Bronze",
+        "logo": "https://"
+    },
+    {
+        "Name": "Adapt Architecture Group LLC",
+        "Industry": "Consulting",
+        "Physical Address": "701 S Main jStreet, Suite 100, Logan, UT 84321",
+        "Website": "https://",
+        "Phone": "435-339-0139",
+        "Representative": "Carl Hanks / Manager",
+        "MemberSince": "02/02/2017",
+        "Membership": "Silver",
+        "logo": "https://"
+    },
+    {
+        "Name": "Advance Call Center Technologies",
+        "Industry": "Services",
+        "Physical Address": "2252 North Main St, NOrth Logan, UT 84341",
+        "Website": "N/A",
+        "Phone": "435-747-1532",
+        "Representative": "Gabriela Diaz / CFO",
+        "MemberSince": "07/01/2023",
+        "Membership": "Gold",
+        "logo": "https://"
+    },
+    {
+        "Name": "Advantage Capital",
+        "Industry": "Finance",
+        "Physical Address": "80 South Main St, Suite 201, Hanover, NH 03755",
+        "Website": "N/A",
+        "Phone": "435-7471832",
+        "Representative": "Carlos Roberts / CEO",
+        "MemberSince": "03/01/2021",
+        "Membership": "Bronze",
+        "logo": "https://"
+    },
+    {
+        "Name": "AIS- Automotive & Industrial Supply",
+        "Industry": "Automotive",
+        "Physical Address": "166 West 1200 South, Logan, UT 84321",
+        "Website": "N/A",
+        "Phone": "435-752-4331",
+        "Representative": "Miguel Bolinaga / President & CEO",
+        "MemberSince": "02/18/1999",
+        "Membership": "Silver",
+        "logo": "https://"
+    },
+    {
+        "Name": "Allen Law Office",
+        "Industry": "Legal",
+        "Physical Address": "44 East Center Street, Suite #100, Logan, UT 84321",
+        "Website": "N/A",
+        "Phone": "435-227-5468",
+        "Representative": "Jerry López / CFO",
+        "MemberSince": "01/02/2005",
+        "Membership": "Gold",
+        "logo": "https://"
+    }
+]
