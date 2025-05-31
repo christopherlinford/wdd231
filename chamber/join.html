@@ -2,198 +2,160 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="Join | Chamber Logan City">
-    <meta property="og:type" content="website">
-    <meta property="og:image"
-        content="https://christopherlinford.github.io/wdd231/chamber/images/building.webp">
-    <meta property="og:url" content="https://christopherlinford.github.io/wdd231/chamber/directory.html">
-    <meta property="og:description" content="Chamber of Logan City, Join us to get more information">
-    <meta property="fb:app_id" content="your-app-id-here">
+  <meta property="og:title" content="Join | Chamber Logan City">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://christopherlinford.github.io/wdd231/chamber/images/building.webp">
+  <meta property="og:url" content="https://christopherlinford.github.io/wdd231/chamber/join.html">
+  <meta property="og:description" content="Chamber of Logan City, Join us to get more information">
+  <meta property="fb:app_id" content="your-app-id-here">
 
+  <title>Join | Logan City Chamber of Commerce</title>
+  <meta name="description" content="Chamber directory, Logan City" />
+  <meta name="author" content="Christopher Linford" />
 
-    <title>Join | Logan City Chamber of Commerce</title>
-    <meta name="description" content="Chamber directory, Logan City" />
-    <meta name="author" content="Christopher Linford" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+  </noscript>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style"
-        onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
-    </noscript>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="styles/join.css" />
 
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/join.css" />
+  <script type="module" src="./scripts/app.js"></script>
+  <script src="./scripts/modules/join.js" defer></script>
+  <script src="scripts/footer.js" defer></script>
 
-    <script type="module" src="./scripts/app.js"></script>
-    <script src="./scripts/modules/join.js" defer></script>
-    <script src="scripts/footer.js" defer></script>
-
-
-    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
-    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="join-page">
-    <header>
-        <nav>
-            <div class="box-logo-header">
-                <img class="logo-chamber" src="images/building.webp" alt="Logo Chamber Logan City" />
-                <h1 class="nameHeader">Logan City<br>Chamber of Commerce</h1>
-                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
-            </div>
-            <ul>
-                <li><a class="nav-a " href="./index.html">Home</a></li>
-                <li><a class="nav-a " href="./discover.html">Discover</a></li>
-                <li><a class="nav-a " href="./directory.html">Directory</a></li>
-                <li><a class="nav-a " href="./join.html">Join</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="box-logo-header">
+        <img class="logo-chamber" src="images/building.webp" alt="Logan City Chamber Logo" />
+        <h1 class="nameHeader">Logan City<br>Chamber of Commerce</h1>
+        <button id="menu" name="navigation button" aria-label="Toggle navigation menu"></button>
+      </div>
+      <ul id="nav-menu">
+        <li><a class="nav-a" href="./index.html">Home</a></li>
+        <li><a class="nav-a" href="./discover.html">Discover</a></li>
+        <li><a class="nav-a" href="./directory.html">Directory</a></li>
+        <li><a class="nav-a active" href="./join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    
-    
-    
-    
-    <main>
-        <h1>Join the Logan City Chamber of Commerce</h1>
-    
+  <main>
+    <h1>Join the Logan City Chamber of Commerce</h1>
 
-        <form method="get" action="thankyou.html">
-            <h2 class="sub-title-form">Membership Application</h2>
-            <label class="name-lb">
-                Name:
-            </label>
-            <input type="text" name="firstName" title="Enter your first name" autocomplete="given-name" required
-                placeholder="First">
-            <input type="text" name="lastName" title="Enter your first name" autocomplete="given-name" required
-                placeholder="Last">
-            <br><br>
+    <form method="get" action="thankyou.html">
+      <h2 class="sub-title-form">Membership Application</h2>
 
-            <label>
-                Organizational Title:
-            </label>
-            <input type="text" name="organizationTitle" title="Enter your organizational title"
-                autocomplete="organization-title" pattern="[A-Za-z\s\-.,']{2,}" required>
-            <br><br>
+      <label for="firstName">Name:</label>
+      <input type="text" name="firstName" id="firstName" autocomplete="given-name" required placeholder="First">
+      <input type="text" name="lastName" id="lastName" autocomplete="family-name" required placeholder="Last">
+      <br><br>
 
-            <label>
-                Email Address:
-            </label>
-            <input type="email" name="email" title="Enter your email address" autocomplete="email"
-                placeholder="example@email.com" required>
-            <br><br>
+      <label for="organizationTitle">Organizational Title:</label>
+      <input type="text" name="organizationTitle" id="organizationTitle" autocomplete="organization-title" pattern="[A-Za-z\s\-.,']{2,}" required>
+      <br><br>
 
-            <label>
-                Mobile Phone Number:
-            </label>
-            <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required
-                placeholder="+11234567890">
-            <br><br>
+      <label for="email">Email Address:</label>
+      <input type="email" name="email" id="email" autocomplete="email" required placeholder="example@email.com">
+      <br><br>
 
-            <label>
-                Business/Organization Name:
-            </label>
-            <input type="text" name="organization" title="Enter your business or organization name"
-                autocomplete="organization" required>
-            <br><br>
+      <label for="phone">Mobile Phone Number:</label>
+      <input type="tel" name="phone" id="phone" autocomplete="tel" required placeholder="+11234567890">
+      <br><br>
 
-            <label>
-                Membership Level:
-            </label>
-            <select name="membershipLevel" required>
-                <option value="" disabled selected>Select a membership level</option>
-                <option value="NP">NP Membership (Non-Profit)</option>
-                <option value="Bronze">Bronze Membership</option>
-                <option value="Silver">Silver Membership</option>
-                <option value="Gold">Gold Membership</option>
-            </select>
-            <br><br>
+      <label for="organization">Business/Organization Name:</label>
+      <input type="text" name="organization" id="organization" autocomplete="organization" required>
+      <br><br>
 
-            <label>
-                Business/Organization Description:
-            </label>
-            <textarea name="organizationDescription" title="Describe your business or organization" rows="4"
-                cols="50"></textarea>
-            <br><br>
+      <label for="membershipLevel">Membership Level:</label>
+      <select name="membershipLevel" id="membershipLevel" required>
+        <option value="" disabled selected>Select a membership level</option>
+        <option value="NP">NP Membership (Non-Profit)</option>
+        <option value="Bronze">Bronze Membership</option>
+        <option value="Silver">Silver Membership</option>
+        <option value="Gold">Gold Membership</option>
+      </select>
+      <br><br>
 
-            <input type="hidden" name="timestamp" id="timestamp" value="">
-            <button class="css-button-fully-rounded--grey" type="submit">Submit</button>
+      <label for="organizationDescription">Business/Organization Description:</label>
+      <textarea name="organizationDescription" id="organizationDescription" rows="4" cols="50"></textarea>
+      <br><br>
 
-            <br><br>
-        </form>
+      <input type="hidden" name="timestamp" id="timestamp">
+      <button class="css-button-fully-rounded--grey" type="submit">Join Now</button>
+    </form>
 
-        <section class="membership-container">
-            <h2 class="sub-title-member">Membership Levels</h2>
+    <section class="membership-container">
+      <h2 class="sub-title-member">Membership Levels</h2>
 
-            <div class="card">
-                <h3>Non Profit Membership Level</h3>
-                <button class="css-button-arrow--black" id="npButton"
-                    aria-label="Learn more about Non-Profit Membership">
-                    <span class="visually-hidden">Learn More</span>
-                </button>
-            </div>
+      <div class="card">
+        <h3>Non Profit Membership Level</h3>
+        <button class="css-button-arrow--black" id="npButton" aria-label="Learn more about Non-Profit Membership">
+          <span class="visually-hidden">Learn More</span>
+        </button>
+      </div>
 
-            <div class="card">
-                <h3>Bronze Membership Level</h3>
-                <button class="css-button-arrow--black" id="bronzeButton"
-                    aria-label="Learn more about bronze Membership">
-                    <span class="visually-hidden">Learn More</span></button>
-            </div>
+      <div class="card">
+        <h3>Bronze Membership Level</h3>
+        <button class="css-button-arrow--black" id="bronzeButton" aria-label="Learn more about Bronze Membership">
+          <span class="visually-hidden">Learn More</span>
+        </button>
+      </div>
 
-            <div class="card">
-                <h3>Silver Membership Level</h3>
-                <button class="css-button-arrow--black" id="silverButton"
-                    aria-label="Learn more about silver Membership">
-                    <span class="visually-hidden">Learn More</span></button>
-            </div>
+      <div class="card">
+        <h3>Silver Membership Level</h3>
+        <button class="css-button-arrow--black" id="silverButton" aria-label="Learn more about Silver Membership">
+          <span class="visually-hidden">Learn More</span>
+        </button>
+      </div>
 
-            <div class="card">
-                <h3>Gold Membership Level</h3>
-                <button class="css-button-arrow--black" id="goldButton" aria-label="Learn more about gold Membership">
-                    <span class="visually-hidden">Learn More</span></button>
-            </div>
+      <div class="card">
+        <h3>Gold Membership Level</h3>
+        <button class="css-button-arrow--black" id="goldButton" aria-label="Learn more about Gold Membership">
+          <span class="visually-hidden">Learn More</span>
+        </button>
+      </div>
 
-            <section class="msg-box">
-                <div class="rotating-text">
-                    <h3 class="start-p">Become part of our</h3>
-                    <p>
-                        <span class="word alizarin">Awesome</span>
-                        <span class="word wisteria">Amazing</span>
-                        <span class="word peter-river">Incredible</span>
-                        <span class="word emerald">Fantastic</span>
-                        <span class="word sun-flower">Fabulous</span>
-                    </p>
-                    <h3 class="end-p">community!</h3>
-                </div>
-            </section>
-
-        </section>
-
-        <dialog id="npModal"></dialog>
-        <dialog id="bronzeModal"></dialog>
-        <dialog id="silverModal"></dialog>
-        <dialog id="goldModal"></dialog>
-    </main>
-
-
-    <footer>
-        <div class="footer-credit">
-          <p>&copy;<span id="currentyear">2025</span> Christopher Linford | WDD 231 | Logan City</p>
-          <p id="lastModified">Last modified date here</p>
+      <section class="msg-box">
+        <div class="rotating-text">
+          <h3 class="start-p">Become part of our</h3>
+          <p>
+            <span class="word alizarin">Awesome</span>
+            <span class="word wisteria">Amazing</span>
+            <span class="word peter-river">Incredible</span>
+            <span class="word emerald">Fantastic</span>
+            <span class="word sun-flower">Fabulous</span>
+          </p>
+          <h3 class="end-p">community!</h3>
         </div>
-      </footer>
+      </section>
+    </section>
 
+    
+    <dialog id="npModal"></dialog>
+    <dialog id="bronzeModal"></dialog>
+    <dialog id="silverModal"></dialog>
+    <dialog id="goldModal"></dialog>
+  </main>
+
+  <footer>
+    <div class="footer-credit">
+      <p>&copy;<span id="currentyear">2025</span> Christopher Linford | WDD 231 | Logan City</p>
+      <p id="lastModified">Last modified date here</p>
+    </div>
+  </footer>
 </body>
 
 </html>
-
-
-
