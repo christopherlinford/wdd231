@@ -1,16 +1,5 @@
 [
     {
-        "Name": "4 Seasons Window LLC",
-        "Industry": "Construction",
-        "Physical Address": "1704 S 800 E #7, Logan, UT 84321",
-        "Website": "N/A",
-        "Phone": "435-278-0975",
-        "Representative": "George Larson Centeno / Ceo",
-        "MemberSince": "05/01/2018",
-        "Membership": "Bronze",
-        "logo": "https://"
-    },
-    {
         "Name": "Aamco Transmission",
         "Industry": "Repair Services",
         "Physical Address": "75 East 2000 North, North Logan, UT 84341",
@@ -19,7 +8,7 @@
         "Representative": "Glenn Johnson  / CFO",
         "MemberSince": "12/01/2024",
         "Membership": "Silver",
-        "logo": "https"
+        "logo": "https://logo.clearbit.com/aamco.com"
     },
     {
         "Name": "Accountek Business Solutions",
@@ -30,7 +19,7 @@
         "Representative": "Jordan Maise /CEO",
         "MemberSince": "10/01/2014",
         "Membership": "Gold",
-        "logo": "https://"
+        "logo": "https://chambermaster.blob.core.windows.net/images/members/426/8923/MemLogoSearch_accounteklogo_2.gif"
     },
     {
         "Name": "Adams Wealth Advisors",
@@ -41,18 +30,7 @@
         "Representative": "Henry James / President & CEO",
         "MemberSince": "06/01/2014",
         "Membership": "Bronze",
-        "logo": "https://"
-    },
-    {
-        "Name": "Adapt Architecture Group LLC",
-        "Industry": "Consulting",
-        "Physical Address": "701 S Main jStreet, Suite 100, Logan, UT 84321",
-        "Website": "https://",
-        "Phone": "435-339-0139",
-        "Representative": "Carl Hanks / Manager",
-        "MemberSince": "02/02/2017",
-        "Membership": "Silver",
-        "logo": "https://"
+        "logo": "https://chambermaster.blob.core.windows.net/images/members/426/3388/MemLogoSearch_download%20(24).png"
     },
     {
         "Name": "Advance Call Center Technologies",
@@ -63,7 +41,7 @@
         "Representative": "Gabriela Diaz / CFO",
         "MemberSince": "07/01/2023",
         "Membership": "Gold",
-        "logo": "https://"
+        "logo": "https://chambermaster.blob.core.windows.net/images/members/426/9726/MemLogoSearch_download%20(28).png"
     },
     {
         "Name": "Advantage Capital",
@@ -74,7 +52,7 @@
         "Representative": "Carlos Roberts / CEO",
         "MemberSince": "03/01/2021",
         "Membership": "Bronze",
-        "logo": "https://"
+        "logo": "https://chambermaster.blob.core.windows.net/images/members/426/9790/MemLogoSearch_Web%20Pic%20(17).png"
     },
     {
         "Name": "AIS- Automotive & Industrial Supply",
@@ -85,7 +63,7 @@
         "Representative": "Miguel Bolinaga / President & CEO",
         "MemberSince": "02/18/1999",
         "Membership": "Silver",
-        "logo": "https://"
+        "logo": "https://chambermaster.blob.core.windows.net/images/members/426/3981/MemLogoSearch_AIS-Direct-Logo-UT.png"
     },
     {
         "Name": "Allen Law Office",
@@ -96,6 +74,6 @@
         "Representative": "Jerry López / CFO",
         "MemberSince": "01/02/2005",
         "Membership": "Gold",
-        "logo": "https://"
+        "logo": "https://chambermaster.blob.core.windows.net/images/members/426/3879/MemLogoSearch_logo-540x140.png"
     }
 ]
