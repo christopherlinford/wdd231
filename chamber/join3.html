@@ -18,17 +18,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap"
-    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
   </noscript>
 
   <link rel="stylesheet" href="styles/normalize.css" />
   <link rel="stylesheet" href="styles/global.css" />
   <link rel="stylesheet" href="styles/join.css" />
-
 
   <script src="./scripts/modules/join.js" defer></script>
   <script src="scripts/footer.js" defer></script>
@@ -38,13 +35,11 @@
 </head>
 
 <body id="join-page">
-
-
   <header>
     <nav>
       <div class="box-logo-header">
-        <img class="logo-chamber" src="images/building.webp" alt="Logan City Chamber Logo" />
-        <p class="nameHeader">Logan City<br>Chamber of Commerce</p>
+        <img class="logo-chamber" src="images/building.webp" alt="Logan City Chamber Logo">
+        <h1 class="nameHeader">Logan City<br>Chamber of Commerce</h1>
         <button id="menu" name="navigation button" aria-label="Toggle navigation menu"></button>
       </div>
       <ul id="nav-menu">
@@ -62,27 +57,23 @@
     <form method="get" action="thankyou.html">
       <h2 class="sub-title-form">Membership Application</h2>
 
-      <label for="firstName">Name:</label>
+      <label for="firstName">First Name:</label>
       <input type="text" name="firstName" id="firstName" autocomplete="given-name" required placeholder="First">
+
+      <label for="lastName">Last Name:</label>
       <input type="text" name="lastName" id="lastName" autocomplete="family-name" required placeholder="Last">
-      <br><br>
 
       <label for="organizationTitle">Organizational Title:</label>
-      <input type="text" name="organizationTitle" id="organizationTitle" autocomplete="organization-title"
-        pattern="[A-Za-z\s\-.,']{2,}" required>
-      <br><br>
+      <input type="text" name="organizationTitle" id="organizationTitle" autocomplete="organization-title" pattern="[A-Za-z\s\-.,']{2,}" required>
 
       <label for="email">Email Address:</label>
       <input type="email" name="email" id="email" autocomplete="email" required placeholder="example@email.com">
-      <br><br>
 
       <label for="phone">Mobile Phone Number:</label>
       <input type="tel" name="phone" id="phone" autocomplete="tel" required placeholder="+11234567890">
-      <br><br>
 
       <label for="organization">Business/Organization Name:</label>
       <input type="text" name="organization" id="organization" autocomplete="organization" required>
-      <br><br>
 
       <label for="membershipLevel">Membership Level:</label>
       <select name="membershipLevel" id="membershipLevel" required>
@@ -92,14 +83,12 @@
         <option value="Silver">Silver Membership</option>
         <option value="Gold">Gold Membership</option>
       </select>
-      <br><br>
 
       <label for="organizationDescription">Business/Organization Description:</label>
       <textarea name="organizationDescription" id="organizationDescription" rows="4" cols="50"></textarea>
-      <br><br>
 
       <input type="hidden" name="timestamp" id="timestamp">
-      <button class="css-button-fully-rounded--grey" type="submit">Join Now</button>
+      <button class="css-button-fully-rounded--grey" type="submit">Submit</button>
     </form>
 
     <section class="membership-container">
@@ -149,10 +138,10 @@
     </section>
 
     <!-- Membership Modals -->
-    <dialog id="npModal"></dialog>
-    <dialog id="bronzeModal"></dialog>
-    <dialog id="silverModal"></dialog>
-    <dialog id="goldModal"></dialog>
+    <dialog id="npModal">Details about Non-Profit Membership...</dialog>
+    <dialog id="bronzeModal">Details about Bronze Membership...</dialog>
+    <dialog id="silverModal">Details about Silver Membership...</dialog>
+    <dialog id="goldModal">Details about Gold Membership...</dialog>
   </main>
 
   <footer>
