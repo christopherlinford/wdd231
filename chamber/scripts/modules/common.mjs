@@ -16,7 +16,7 @@ export function initializeCommon() {
         ).textContent = `Last Modified: ${document.lastModified}`;
     });
     document.addEventListener("DOMContentLoaded", () => {
-        const bodyId = document.body.id;
+        const bodyId = document.body.id; 
         const navLinks = document.querySelectorAll("nav .nav-a");
 
         navLinks.forEach((link) => {

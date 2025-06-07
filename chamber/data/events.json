@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "name": "Annual Business Forum",
+            "date": "2025-06-15"
+        },
+        {
+            "name": "Networking Gala",
+            "date": "2025-06-05"
+        },
+        {
+            "name": "Small Business Expo",
+            "date": "2025-06-20"
+        },
+        {
+            "name": "Leadership Workshop",
+            "date": "2025-06-10"
+        },
+        {
+            "name": "Chamber Awards Ceremony",
+            "date": "2025-06-28"
+        }
+    ]
+}
