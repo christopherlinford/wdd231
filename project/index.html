@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Christopher Linford">
+
+    <link rel="icon" href="images/favicon/dog-with-glasses-612x612.webp" sizes="32x32" type="image/ico">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Home | Dog Lover's Experience">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of Dogs through breathtaking videos, stories, and unforgettable Tips.">
+    <meta property="og:image" content="images/favicon/dog-with-glasses-612x612.webp">
+    <meta property="og:url" content="https://christopherlinford.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Home | Dog Lover's Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script type="module" src="scripts/app.mjs"></script>
+    <script src="scripts/module/home.js" defer></script>
+
+
+</head>
+
+<body id="index-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/dog-with-glasses-612x612.webp"
+                    alt="Logo Dog Lover Experience" width="200" height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>Dog Lover's</strong> <br>Experience</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./visit.html">Visit</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-box">
+            <picture class="intro-img">
+                <source media="(min-width: 900px)" srcset="images/bubble-dog-1025x1362.webp" width="900" height="760">
+                <source media="(min-width: 620px)" srcset="images/bubbles-dog-641x852.webp" width="620" height="760">
+                <img src="images/bubble-dog-320x425.webp" alt="Dogs" width="420" height="760" loading="lazy">
+            </picture>
+            <div class="intro-content">
+                <div class="intro-msg">
+                    <h2>Heed the call of <br>
+                        nature and <strong>leave it<br>
+                            all behind.</strong></h2>
+                </div>
+                <div class="button-contact">
+                    <button class="css-button-arrow--black" onclick="location.href='../project/contact.html'">BOOK
+                        NOW</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="midle-box">
+
+            <article class="side_article">
+                <h3>Leave <br>
+                    it to us!</h3>
+                <p>Discover the magic of Dogs through training, equipment, pictures, and unforgettable
+                    events. </p>
+            </article>
+
+            <article class="main_article">
+                <div class="card_01 box-card">
+                    <img src="images/dog-hand-612x344.webp" alt="Dogs" width="520" height="767" loading="lazy">
+                    <h4>Customized Dog Training</h4>
+                    <p>We craft each of our 3 dog training programs to reflect your unique interests and preferences.
+                        Whether you're seeking a
+                        help to train your dog your self, get some additional help, or complete training from a
+                        progessional, the training packages are made for you.</p>
+                </div>
+
+                <div class="card_02 box-card">
+                    <img src="images/dog-loop-641x962.webp" alt="Dogs" width="520" height="767" loading="lazy">
+                    <h4>Dog Events</h4>
+                    <p>Dogs are great pets to have around and get involved with. There are many dog shows, as well
+                        places to take your furry friend. We will handle all the details, so you can focus on enjoying
+                        your dog at the event.</p>
+                </div>
+
+                <div class="card_03 box-card">
+                    <img src="images/terrier-glasses-641x962.webp" alt="Dogs" width="520" height="767" loading="lazy">
+                    <h4>Dog Fun</h4>
+                    <p>Dogs are great to have fun with. You can buy props as well as equipment to play with your dog to
+                        make it more engaging.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="social-box">
+            <div class="back-box">
+                <div class="action-box">
+                    <img src="images/white-run-dog-1025x683.webp" alt="Dogs" width="900" height="767" loading="lazy">
+                    <div class="action-msg">
+                        <h2>Book a Traing With Us!!</h2>
+                        <h4>Unforgettable Moments Await</h4>
+                    </div>
+                </div>
+                <div class="socia-info">
+                    <div class="contact-item">
+                        <h4>Phone</h4>
+                        <p>(555) 555-55545</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Email:</h4>
+                        <p>hello@doglovers.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Social:</h4>
+                        <p>
+                            <a href="#"><img src="images/logos/Facebook_Logo_Secondary.png" alt="Facebook" width="104"
+                                    height="104" loading="lazy"></a>
+                            <a href="#"><img src="images/logos/logo-x-version-white.png" alt="Twitter" width="104"
+                                    height="104" loading="lazy"></a>
+                            <a href="#"><img src="images/logos/Instagram_Glyph_White.png" alt="Instagram" width="104"
+                                    height="104" loading="lazy"></a>
+                        </p>
+                    </div>
+                    <div class="weather-main" id="weather-main"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2024</span> - Christopher Linford - Dog Lovers Experience</p>
+        <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+    </footer>
+
+</body>
+
+</html>

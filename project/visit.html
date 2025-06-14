@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Home page" />
+  <meta name="author" content="Christopher Linford" />
+
+  <link rel="icon" href="images/favicon/dog-with-glasses-612x612.webp" sizes="32x32" type="image/webp" />
+
+  <!-- Essential META Tags -->
+  <meta property="og:title" content="Home | Dog Lover's Experience" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="Discover the magic of Dogs through breathtaking pictures, funny stories, and unforgettable dog training hints." />
+  <meta property="og:image" content="images/favicon/dog-with-glasses-612x612.webp" />
+  <meta property="og:url" content="https://christopherlinford.github.io/wdd231/index.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>Visit us | Dog Lover's Experience</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <script type="module" src="scripts/app.mjs"></script>
+  <script src="scripts/module/visit.js" defer></script>
+</head>
+
+<body id="visit-page">
+  <header>
+    <nav>
+      <div class="box-logo-header">
+        <img class="logo-chamber" src="images/favicon/dog-with-glasses-612x612.webp" alt="Logo Dog Lover's Experience"
+          width="200" height="200" loading="lazy" />
+        <h1 class="nameHeader"><strong>Dog Lover's</strong><br>Experience</h1>
+        <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+      </div>
+      <ul>
+        <li><a class="nav-a" href="./index.html">Home</a></li>
+        <li><a class="nav-a" href="./visit.html">Visit</a></li>
+        <li><a class="nav-a" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="section-principal">
+      <h2>Dog Training <span>Options</span></h2>
+      <article class="price-box">
+        <div>
+          <img src="images/brown-dog-stand-woman-641x428.webp" alt="Dog standing beside a woman" width="540"
+            height="960" loading="lazy" />
+          <h4>Basic Obedience Package</h4>
+          <h5>$199</h5>
+          <p>Perfect for: First-time dog owners or basic behavior needs. This package includes: 3 private training
+            sessions, basic commands (sit, come, down, stay), customized at-home training plan, and email support for 1
+            week. <strong>Results:</strong> Lay a solid foundation for obedience and communication.</p>
+          <button>Book Now</button>
+        </div>
+        <div>
+          <img src="images/black-dog-yellow-jump641x427.webp" alt="Dog jumping over an obstacle" width="540"
+            height="960" loading="lazy" />
+          <h4>Advanced Training Package</h4>
+          <h5>$299</h5>
+          <p>Perfect for: Dogs needing stronger obedience or moderate behavior correction. Includes everything in Basic,
+            PLUS: 5 private training sessions (1 hour each), advanced commands (Leave it, Heel, Place, Wait,
+            Distraction and Real-World Environment training), problem behavior correction (e.g., jumping, barking),
+            follow-up progress check-in, and phone/email support for 2 weeks. <strong>Results:</strong> Improved
+            responsiveness, impulse control, and confidence in various situations.</p>
+          <button>Book Now</button>
+        </div>
+        <div>
+          <img src="images/2-dogs-train-641x427.webp" alt="Two dogs being trained" width="540" height="960"
+            loading="lazy" />
+          <h4>Elite Behavior & Lifestyle Package</h4>
+          <h5>$399</h5>
+          <p>Perfect for: Long-term results, behavior changes, or prepping for therapy/service work. Includes everything
+            in Advanced, PLUS: 7 private training sessions (1 hour each), customized training for specific needs (e.g.,
+            leash reactivity, anxiety), ongoing review of at-home training, priority scheduling & lifetime email
+            support, graduation certificate, and training tools like a treat pouch and clicker.
+            <strong>Results:</strong>
+            A well-rounded, confident dog with long-lasting behavioral improvements.</p>
+          <button>Book Now</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-media">
+      <h2>What We Can Offer You</h2>
+      <p>The Dog Lover's Experience offers everything a novice or experienced dog owner would care to know, have, or do
+        with their awesome pets! Come learn about dog training, tips, equipment, health, trivia, and events in your
+        area.</p>
+      <article class="slider-container slider-dimensions">
+        <div class="slider">
+          <div data-img-url="images/2-dog-run-beach-641x427.webp" class="slider-dimensions">
+            <h4>Lists of great places to walk dogs!</h4>
+          </div>
+          <div data-img-url="images/2-dogs-tongue-641x963.webp" class="slider-dimensions">
+            <h4>Pictures of Happy Dogs!!</h4>
+          </div>
+          <div data-img-url="images/brown-dog-sit-641x361.webp" class="slider-dimensions">
+            <h4>Events for Dog Lovers!</h4>
+          </div>
+          <div data-img-url="images/dog-out-window-1025x1367.webp" class="slider-dimensions">
+            <h4>Tips for traveling with dogs!</h4>
+          </div>
+        </div>
+        <div class="nav-container slider-dimensions">
+          <button data-index-change="-1" aria-label="Previous image">&lt;</button>
+          <div class="index-container"></div>
+          <button data-index-change="1" aria-label="Next image">&gt;</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-opinion">
+      <h2>What Our Clients Say</h2>
+      <div class="opinion opinion-01">
+        <p>"The Basic Training Package was both economical and full of value. Everything was provided for teaching basic
+          commands to my dog! We loved the flexibility, and the recommendations were spot-on. Highly recommended!"</p>
+        <h5>John Henry</h5>
+      </div>
+      <div class="opinion opinion-02">
+        <p>"Having a professional trainer was incredible! The Advanced Training package was everything we needed.
+          The Elite package helped us better understand our pet and how to train him."</p>
+        <h5>Christy Lemwood</h5>
+      </div>
+      <div class="opinion opinion-03">
+        <p>"The events listed were great! The events were fun, and great for our family and dogs."</p>
+        <h5>Carey Larson</h5>
+      </div>
+    </section>
+
+    <div class="contact-info-visit">
+      <a href="#"><img src="images/logos/Facebook_Logo_Secondary.png" alt="Facebook icon link" width="104" height="104"
+          loading="lazy" /></a>
+      <a href="#"><img src="images/logos/logo-x-version-white.png" alt="X/Twitter icon link" width="104" height="104"
+          loading="lazy" /></a>
+      <a href="#"><img src="images/logos/Instagram_Glyph_White.png" alt="Instagram icon link" width="104" height="104"
+          loading="lazy" /></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear">2024</span> - Christopher Linford - Dog Lover's Experience</p>
+    <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+  </footer>
+</body>
+
+</html>
